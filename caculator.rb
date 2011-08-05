@@ -66,6 +66,7 @@ class Caculator
     gastTeam = findTeamById(awayTeamId)  
 
     matchname = homeTeam.name + " : " + gastTeam.name    
+    puts matchname
 
     different = homeTeam.rank - gastTeam.rank
     
